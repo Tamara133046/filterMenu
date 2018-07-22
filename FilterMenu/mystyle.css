@@ -1,0 +1,33 @@
+.default {
+    margin: auto;
+    width: 50%;
+    display: block;
+    margin-top:10px;
+}
+.glyphicon.glyphicon-home{
+    font-size: 25px;
+    color: lightskyblue;
+}
+.top{
+    float: left;
+}
+.SumoSelect{font-size: 12px;}
+i{
+    padding-right: 10px;
+}
+
+.container{
+    margin-top: 10px;
+}
+
+table{
+    margin: auto;
+    width: 100%;
+}
+table, tr{
+    border-top: 1px solid lightskyblue;
+    border-bottom: 1px solid lightskyblue;
+}
+table tr td{
+    padding: 5px;
+}

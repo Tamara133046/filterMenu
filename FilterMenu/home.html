@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="jquery.sumoselect.js"></script>
+    <link href="sumoselect.css" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script>
+        $(document).ready(function () {
+            $('.testselect').SumoSelect();
+            $("tr:even").css("background-color", "lightskyblue");
+            $("tr:odd").css("background-color", "whitesmoke");
+        });
+    </script>
+
+</head>
+<body>
+<div class="default">
+    <div class="menu">
+        <div class="top"><i class="glyphicon glyphicon-home"></i></div>
+        <div class="top">
+            <select class="testselect">
+                <option selected="selected">Regional</option>
+                <option>National</option>
+            </select>
+            <select multiple="multiple" name="Sectors" placeholder="Sectors" class="testselect">
+                <option>Information Technology</option>
+                <option>Education</option>
+                <option>Construction</option>
+                <option>Agriculture</option>
+                <option>Commerce</option>
+                <option>Healthcare</option>
+                <option>Public service</option>
+            </select>
+            <select multiple="multiple" name="Regions" placeholder="Regions" class="testselect">
+                <option>Region one</option>
+                <option>Region two</option>
+                <option>Region three</option>
+            </select>
+        </div>
+    </div>
+    <table>
+        <tr>
+            <td>#</td>
+            <td>tami</td>
+            <td>tami</td>
+        </tr>
+        <tr>
+            <td>#</td>
+            <td>tami</td>
+            <td>tami</td>
+        </tr>
+        <tr>
+            <td>#</td>
+            <td>tami</td>
+            <td>tami</td>
+        </tr>
+        <tr>
+            <td>#</td>
+            <td>tami</td>
+            <td>tami</td>
+        </tr>
+        <tr>
+            <td>#</td>
+            <td>tami</td>
+            <td>tami</td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
